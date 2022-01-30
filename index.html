@@ -12,11 +12,16 @@
     <link href="http://fonts.cdnfonts.com/css/avenir-lt-std" rel="stylesheet">       
 </head>
 <body>
-    <forms>
-        <input type="search" id="search" placeholder="Search" name="search">
-        <button type="submit" id="button">
-        <i class="fa fas fa-search" id="search-btn"></i></button>
-    </forms>
+    <div class="search-box">
+        <forms>
+            <input type="search" id="search" placeholder="Search" name="search">
+            <button type="submit" id="button">
+            <i class="fa fas fa-search" id="search-btn"></i></button>
+        </forms><br><br><br>
+        <div class="result">
+            Search results here....     
+        </div>
+    </div>
     <div class="logo">
         <!-- <img src="./image/logo.jpg"> -->
     </div>
@@ -30,6 +35,20 @@
             <i class="fa fa-bars"></i><br>
         </ul>
     </nav>
+    <div class="main-section">
+    <div class="section">
+        <i class="fa fa-plus"></i>
+        <div>
+            <input type="text" name="text" class="text-box">
+        </div>
+        <div class="options">
+            <i class="fa fa-cloud"></i>
+            <i class="fa fa-heart"></i>
+            <i class="fa fa-car"></i>
+            <i class="fa fa-file"></i>
+        </div>
+    </div>
+    </div>
 </body>
 <script src="./js/script.js"></script>
 </html>
