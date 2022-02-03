@@ -1,15 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
 body{
-  background: #07051a;
+  background: #0d051a;
   font-family: 'Open Sans', sans-serif;
+}
+
+.heading{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 80px;
+    color:#ffffff;
+    align-items: center;
+    padding:1% 20%;
 }
 
 .navbar{
     background-color: whitesmoke;
-    border-radius:10px;
-    margin:30px;
+    border-radius: 0px 10px 10px 0px;
     width:8%;
-    left:0em;
 }
 
 .navbar i{
@@ -29,7 +35,6 @@ body{
 
 .search-box{
     text-align: center;
-    /* border:2px solid red; */
     width:97%;
     padding:5px;
 }
@@ -61,7 +66,7 @@ input{
     line-height: 30px;
     outline: 0;
     border: 0;
-    font-size: 1em;
+    font-size: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color:#07051a;
     border-radius: 20px;
@@ -70,7 +75,7 @@ input{
 
 forms:hover,
 forms:valid{
-    width: 500px;
+    width: 70%;
     cursor: pointer;
 }
 .fas{
@@ -124,7 +129,7 @@ a {
       top:38%;
       height:60%;
       width:80%;
-      right:5%;
+      right:7%;
       text-align: center;
   }
 
@@ -190,11 +195,12 @@ a {
       top:10%;
       color:white;
       align-items: center;
-      border:2px solid white;
+      /* border:2px solid white; */
+      background-color: #21202b;
       width:50%;
-      height:25%;
+      height:22%;
       left:21%;
       margin:0%;
-      padding:0px 50px;
+      padding:10px 50px;
       /* overflow-y: scroll; */
   }
